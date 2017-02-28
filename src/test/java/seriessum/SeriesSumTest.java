@@ -28,7 +28,7 @@ public class SeriesSumTest {
         //Test
         String output = ss.sum(inputInt);
         //Assert
-        assertEquals("1",output);
+        assertEquals("1.00",output);
     }
 
     @Test
