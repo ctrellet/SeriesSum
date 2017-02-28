@@ -8,6 +8,18 @@ import static org.junit.Assert.assertEquals;
 public class SeriesSumTest {
 
     @Test
+    public void testSeriesSum0() {
+
+        //Set
+        SeriesSum ss = new SeriesSum();
+        int inputInt = 0;
+        //Test
+        String output = ss.sum(inputInt);
+        //Assert
+        assertEquals("0.00",output);
+    }
+
+    @Test
     public void testSeriesSum1() {
 
         //Set
